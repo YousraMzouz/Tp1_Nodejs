@@ -10,6 +10,7 @@ import "./style.css";
 import io from 'socket.io-client';
 
 let socket;
+
 const ENDPOINT = 'localhost:5000';
 export default function App() {            
                  //export = pour etre utilisé en dehords de App.js 

@@ -17,6 +17,7 @@ export default function Register() {
   const submit = async (e) => {
     e.preventDefault();
 
+    
     try {
       const newUser = { email, password, passwordCheck, displayName };
       await Axios.post("http://localhost:5000/users/register", newUser);

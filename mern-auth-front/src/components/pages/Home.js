@@ -7,6 +7,7 @@ export default function Home() {
   const imageUploader = React.useRef(null);
 
   const handleImageUpload = e => {
+    
     const [file] = e.target.files;
     if (file) {
       const reader = new FileReader();

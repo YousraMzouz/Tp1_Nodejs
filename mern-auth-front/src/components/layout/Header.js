@@ -11,4 +11,6 @@ export default function Header() {
       <AuthOptions />                                  {/* c'est bcp mieux de séparer les composantes que de écrir tt ds un seul fichier*/}
     </header>
   );
+  
 }
+

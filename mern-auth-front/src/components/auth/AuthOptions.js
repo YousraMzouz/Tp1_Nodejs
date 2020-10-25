@@ -16,6 +16,7 @@ export default function AuthOptions() {
     });
     localStorage.setItem("auth-token", "");
   };
+  
 
   return (
     <nav className="auth-options">   {/* className comme un id qui va etre exploiter ds le style.css */}

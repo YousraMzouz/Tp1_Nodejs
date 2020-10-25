@@ -7,4 +7,5 @@ export default function ErrorNotice(props) {
       <button onClick={props.clearError}>X</button>
     </div>
   );
+  
 }

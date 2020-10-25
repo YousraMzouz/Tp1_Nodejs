@@ -7,6 +7,7 @@ ReactDOM.render(                                 //render sert à apparaitre tt 
 
 //jsx not html
 <div className="pagehome">
+   
 <App />    
 
  </div>                                   //App = la fct qu'on a ds App.js
